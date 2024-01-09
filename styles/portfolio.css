@@ -8,10 +8,17 @@ color:#FD6E0A;
 /*nave releated styles */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn-primary{
   border-radius: 5px;
   background: #FD6E0A;
+  border: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 15px 15px;
 }
 .nav-tittle {
   color: #181818;
@@ -21,6 +28,7 @@ nav {
 }
 nav>ul{
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
