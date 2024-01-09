@@ -2,18 +2,19 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-.text-primary{
-color:#FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
 /*nave releated styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
-.btn-primary{
+.btn-primary {
   border-radius: 5px;
-  background: #FD6E0A;
+  background: #fd6e0a;
   border: 0;
   font-size: 20px;
   font-style: normal;
@@ -26,7 +27,7 @@ nav {
   font-size: 45px;
   font-weight: 800;
 }
-nav>ul{
+nav > ul {
   display: flex;
   align-items: center;
 }
@@ -34,7 +35,20 @@ nav li {
   list-style: none;
   margin-right: 50px;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header related style */
+header {
+  background-color: #fff8f3;
+}
+.banner{
+  padding: 30px 30p 30px 150x;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 500px;
+
 }
